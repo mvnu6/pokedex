@@ -1,0 +1,16 @@
+{
+  "name": "mango-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API de recherche de Pokémon avec MongoDB",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongodb": "^6.20.0"
+  }
+}
